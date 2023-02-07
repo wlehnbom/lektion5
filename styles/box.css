@@ -1,0 +1,109 @@
+
+
+
+
+body {
+    background-color: lime;
+    height: 100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    background-color: black;
+    width: 80%;
+    min-height: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: purple;
+    margin: 20px;
+    padding: 5px;
+    min-height: 120px;
+    width: 480px;
+}
+
+.one {
+    align-items: flex-end;
+    display: flex;
+}
+
+.two{
+    display: flex;
+    justify-content: center;
+}
+
+.three {
+    align-items: center;
+    justify-content: right;
+    display: flex;
+}
+
+.four {
+    align-items: flex-start;
+    justify-content: space-between;
+    display: flex;
+}
+
+.five {
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+}
+
+.six {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.rectangle {
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+    width: 70px;
+    height: 110px;
+    display: flex;
+    margin: 10px;
+    align-items: center;
+}
+
+
+.box {
+    background-color: red;
+    width: 70px;
+    height: 70px;
+    margin: 10px;
+}
+
+.right-corner {
+    align-self: flex-end;
+
+}
+
+.rectangle-horizontal {
+    width: 110px;
+    height: 70px;
+    margin: 10px;
+    background-color: red;
+}
+
+.rectangle-small {
+    align-items: center;
+    justify-content: center;
+    width: 65px;
+    height: 55px;
+    display: flex;
+    margin: 10px;
+    background-color: red;
+}
+
+p {
+    justify-content: center;
+    align-items: center;
+}
